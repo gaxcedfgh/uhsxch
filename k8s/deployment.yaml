@@ -13,7 +13,7 @@ spec:
         app: uhsxch
     spec:
       containers:
-      - image: okteto.dev/ray:latest
+      - image: okteto.dev/uhsxch:latest
         name: uhsxch
         ports:
         - containerPort: 8080
